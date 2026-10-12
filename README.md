@@ -2,6 +2,8 @@
 
 MedSync adalah aplikasi web Sistem Informasi Akuntansi untuk mengintegrasikan data karyawan rumah sakit, absensi, lembur, penilaian kinerja, payroll, rincian potongan, kasbon/pinjaman, slip gaji, jurnal, buku besar, dan laporan biaya tenaga kerja. Aplikasi memakai HTML, CSS, dan JavaScript tanpa framework, dengan Supabase PostgreSQL sebagai database.
 
+DEMO WEB : https://gizkatita.github.io/MedSync/
+
 > **Penting — konfigurasi demo akademik:** SQL mengaktifkan kebijakan RLS yang mengizinkan peran `anon` membaca dan mengubah data HR/payroll dan daftar akun, serta memanggil RPC jurnal. Hal ini diperlukan karena aplikasi tidak memakai halaman login. Gunakan hanya untuk tugas/demo dengan data fiktif di project Supabase terpisah. Jangan gunakan kebijakan tersebut untuk data rumah sakit sungguhan atau deploy publik.
 
 ## Teknologi dan struktur folder
